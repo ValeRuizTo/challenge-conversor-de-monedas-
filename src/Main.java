@@ -32,7 +32,7 @@ public class Main {
             opcion = scanner.nextInt();
 
             if (opcion >= 1 && opcion <= 6) {
-                System.out.print("Ingrese el monto a convertir: ");
+                System.out.print("Ingresa el monto a convertir: ");
                 double monto = scanner.nextDouble();
 
                 switch (opcion) {
